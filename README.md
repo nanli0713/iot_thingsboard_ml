@@ -1,7 +1,7 @@
 # iot_smart_classroom
 
 #### 介绍
-本项目主要基于thingsboard，实现了机器学习和thingsboard的结合。python：先使用代码随机生成1000行数据，并保存到csv文件中，然后使用线性回归、决策树回归和随机森林回归三种方法来模拟训练和测试，最终我们得到了最佳模拟模型：随机森林。thingsboard：使用python动态地将温度、湿度、光亮度三者的数据展示在thingsboard上，如果学生效率低于60%会警报。
+本项目主要基于thingsboard，实现了机器学习和thingsboard的结合。python：先使用代码随机生成1000行数据，并保存到csv文件中，然后使用线性回归、决策树回归和随机森林回归三种方法来模拟训练和测试，最终我们得到了最佳模拟模型：随机森林。还使用深度学习的MLP进行模拟，正确率高达99%。thingsboard：使用python动态地将温度、湿度、光亮度三者的数据展示在thingsboard上，如果学生效率低于60%会警报。
 
 #### 软件架构
 ```
@@ -27,6 +27,9 @@ thingsboard
 2.  项目上基于官方给的智能办公（Smart Office）dashboard修改而来，所以你的大量工作在于修改他的demo
 3.  我的电脑：macbook 2020 air m1
 4.  python环境：python=3.11.5,pandas==2.0.3,numpy==1.26.4,json==2.0.9,sklearn==1.3.0,matplotlib==3.7.2,requests==2.31.0
+5.  torch：2.2.2+cuda121
+6.  nvidia-smi:<img width="840" alt="截屏2024-04-15 13 03 41" src="https://github.com/nanli0713/iot_thingsboard_ml/assets/77238981/c76d5fef-d243-4104-9aad-0269f0a93b9b">
+
 
 #### Thingsboard配置 (极其重要)
 
@@ -244,7 +247,12 @@ ok，正常了！
 - 使用 MSE 和 MAE 评估三种模型的性能
 - 得出最终的结论
 ![截屏2024-04-12_14.30.17](./thingsboard/截屏2024-04-12_14.52.43.png)
-##### 4.连接thingsboard
+##### 4.使用深度学习的方法进行模型拟合
+- 将数据集分成 训练集80% 测试集20%
+- 使用 深度学习方法进行模拟：MLP多层感知机
+- 模拟结果：正确率达到了99%以上
+
+##### 5.连接thingsboard
 - 将温度，湿度，光亮度以及学生的学习效率等数据发送到smart-sensor
 
 - 查看requests的打印信息
