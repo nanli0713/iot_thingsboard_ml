@@ -1,7 +1,7 @@
 # iot_smart_classroom
 
 #### Introduce
-This project is mainly based on thingsboard and realizes the combination of machine learning and thingsboard. python: First use the code to randomly generate 1000 rows of data and save it to a csv file. Then use three methods: linear regression, decision tree regression and random forest regression to simulate training and testing. Finally, we got the best simulation model: random forest . thingsboard: Use python to dynamically display temperature, humidity, and brightness data on thingsboard. If the student's efficiency is less than 60%, an alarm will be issued.
+This project is mainly based on thingsboard and realizes the combination of machine learning and thingsboard. python: First use the code to randomly generate 1000 rows of data and save it to a csv file. Then use three methods: linear regression, decision tree regression and random forest regression to simulate training and testing. Finally, we got the best simulation model: random forest . Deep learning MLP is also used for simulation, with an accuracy rate as high as 99%.thingsboard: Use python to dynamically display temperature, humidity, and brightness data on thingsboard. If the student's efficiency is less than 60%, an alarm will be issued.
 
 #### Software Architecture
 ```
@@ -14,6 +14,7 @@ Smart Classroom based on thingsboard and python
 |————output    // Image path output by machine learning
 |    |————model_performance_plots.png    // ML Model Simulated image
 |————iot_lab5.ipynb  // Contains mock data generation code, ML data simulation code, and thingsboard connection code
+|————iot-dl.ipynb  // DL data simulation code with an accuracy rate of up to 99%
 └————thingsboard // Folder containing pictures of various configurations of thingsboard
 ```
 
@@ -26,6 +27,9 @@ thingsboard
 2.  The project is modified based on the official Smart Office dashboard, so a lot of your work is to modify its demo.
 3.  My computer: macbook 2020 air m1
 4.  python environment：python=3.11.5,pandas==2.0.3,numpy==1.26.4,json==2.0.9,sklearn==1.3.0,matplotlib==3.7.2,requests==2.31.0
+5.  torch：2.2.2+cuda121
+6.  nvidia-smi:
+ <img width="840" alt="截屏2024-04-15 13 03 41" src="https://github.com/nanli0713/iot_thingsboard_ml/assets/77238981/c76d5fef-d243-4104-9aad-0269f0a93b9b">
 
 #### Thingsboard configuration (Extremely important)
 
@@ -248,7 +252,17 @@ So we have this low efficiency warning
 - Evaluate the performance of three models using MSE and MAE
 - draw final conclusions
 ![截屏2024-04-12_14.30.17](./thingsboard/截屏2024-04-12_14.52.43.png)
-##### 4.connect thingsboard
+##### 4. Use deep learning methods for model fitting
+- Divide the data set into 80% training set and 20% test set
+- Simulation using deep learning method: MLP multi-layer perceptron
+- Simulation results: the accuracy rate reached over 99%
+- data reading
+![截屏2024-04-12_14.30.17](./thingsboard/截屏2024-04-15_13.08.10.png)
+- Model construction
+![截屏2024-04-12_14.30.17](./thingsboard/截屏2024-04-15_13.08.30.png)
+- result：
+![截屏2024-04-12_14.30.17](./thingsboard/截屏2024-04-15_13.08.42.png)
+##### 5.connect thingsboard
 - Send data such as temperature, humidity, brightness and student learning efficiency to smart-sensor
 
 - View the printing information of requests
