@@ -14,6 +14,7 @@ Smart Classroom based on thingsboard and python
 |————output    // 机器学习输出的图片路径
 |    |————model_performance_plots.png    // 模型模拟图片
 |————iot_lab5.ipynb  // 包含 mock数据产生代码，ML数据模拟代码，连接thingsboard代码
+|————iot-dl.ipynb  // 包含 mock数据产生代码，DL数据模拟代码，正确率高达99%
 └————thingsboard // 包含thingsboard各项配置的图片的文件夹
 ```
 
