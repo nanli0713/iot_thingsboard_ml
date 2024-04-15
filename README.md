@@ -14,7 +14,7 @@ Smart Classroom based on thingsboard and python
 |————output    // 机器学习输出的图片路径
 |    |————model_performance_plots.png    // 模型模拟图片
 |————iot_lab5.ipynb  // 包含 mock数据产生代码，ML数据模拟代码，连接thingsboard代码
-|————iot-dl.ipynb  // 包含 mock数据产生代码，DL数据模拟代码，正确率高达99%
+|————iot-dl.ipynb  // DL数据模拟代码，正确率高达99%
 └————thingsboard // 包含thingsboard各项配置的图片的文件夹
 ```
 
@@ -28,7 +28,8 @@ thingsboard
 3.  我的电脑：macbook 2020 air m1
 4.  python环境：python=3.11.5,pandas==2.0.3,numpy==1.26.4,json==2.0.9,sklearn==1.3.0,matplotlib==3.7.2,requests==2.31.0
 5.  torch：2.2.2+cuda121
-6.  nvidia-smi:<img width="840" alt="截屏2024-04-15 13 03 41" src="https://github.com/nanli0713/iot_thingsboard_ml/assets/77238981/c76d5fef-d243-4104-9aad-0269f0a93b9b">
+6.  nvidia-smi:
+ <img width="840" alt="截屏2024-04-15 13 03 41" src="https://github.com/nanli0713/iot_thingsboard_ml/assets/77238981/c76d5fef-d243-4104-9aad-0269f0a93b9b">
 
 
 #### Thingsboard配置 (极其重要)
