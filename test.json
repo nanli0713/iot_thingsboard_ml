@@ -1,0 +1,587 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Category1",
+      "symbolSize": 19.12381,
+      "x": -266.82776,
+      "y": 299.6904,
+      "value": 28.685715,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "Category2",
+      "symbolSize": 19.12381,
+      "x": -418.08344,
+      "y": 446.8853,
+      "value": 28.685715,
+      "category": 0
+    },
+    {
+      "id": "2",
+      "name": "Category3",
+      "symbolSize": 19.12381,
+      "x": -379.30386,
+      "y": 429.06424,
+      "value": 28.685715,
+      "category": 0
+    },
+    {
+      "id": "3",
+      "name": "Category4",
+      "symbolSize": 19.12381,
+      "x": -417.26337,
+      "y": 406.03506,
+      "value": 28.685715,
+      "category": 0
+    },
+    {
+      "id": "4",
+      "name": "Category5",
+      "symbolSize": 19.12381,
+      "x": -332.6012,
+      "y": 485.16974,
+      "value": 28.685715,
+      "category": 0
+    },
+    {
+      "id": "5",
+      "name": "Bright",
+      "symbolSize": 4.495239333333333,
+      "x": -89.34107,
+      "y": 234.56128,
+      "value": 6.742859,
+      "category": 1
+    },
+    {
+      "id": "6",
+      "name": "Fine",
+      "symbolSize": 4.495239333333333,
+      "x": -87.93029,
+      "y": -6.8120565,
+      "value": 6.742859,
+      "category": 1
+    },
+    {
+      "id": "7",
+      "name": "Sunny",
+      "symbolSize": 4.495239333333333,
+      "x": -339.77908,
+      "y": -184.69139,
+      "value": 6.742859,
+      "category": 1
+    },
+    {
+      "id": "8",
+      "name": "Mainly fine",
+      "symbolSize": 4.495239333333333,
+      "x": -194.31313,
+      "y": 178.55301,
+      "value": 6.742859,
+      "category": 1
+    },
+    {
+      "id": "9",
+      "name": "Cloudy",
+      "symbolSize": 4.495239333333333,
+      "x": -385.2226,
+      "y": -393.5572,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "10",
+      "name": "Cloudy to overcast",
+      "symbolSize": 4.495239333333333,
+      "x": -516.55884,
+      "y": -393.98975,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "11",
+      "name": "Mist",
+      "symbolSize": 4.495239333333333,
+      "x": -464.79382,
+      "y": -493.57944,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "12",
+      "name": "Visibility will be relatively low",
+      "symbolSize": 4.495239333333333,
+      "x": -515.1624,
+      "y": -456.9891,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "13",
+      "name": "Haze",
+      "symbolSize": 4.495239333333333,
+      "x": -408.12122,
+      "y": -464.5048,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "14",
+      "name": "Fog",
+      "symbolSize": 4.495239333333333,
+      "x": -456.44113,
+      "y": -425.13303,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "15",
+      "name": "Becoming cloudy",
+      "symbolSize": 4.495239333333333,
+      "x": -459.1107,
+      "y": -362.5133,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "16",
+      "name": "Rather low visibility",
+      "symbolSize": 4.495239333333333,
+      "x": -313.42786,
+      "y": -289.44803,
+      "value": 6.742859,
+      "category": 2
+    },
+    {
+      "id": "17",
+      "name": "Light rain",
+      "symbolSize": 4.495239333333333,
+      "x": 4.6313396,
+      "y": -273.8517,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "18",
+      "name": "Strong winds",
+      "symbolSize": 4.495239333333333,
+      "x": 82.80825,
+      "y": -203.1144,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "19",
+      "name": "Showers will ease off",
+      "symbolSize": 4.495239333333333,
+      "x": 78.64646,
+      "y": -31.512747,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "20",
+      "name": "Rain will ease off",
+      "symbolSize": 4.495239333333333,
+      "x": -81.46074,
+      "y": -204.20204,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "21",
+      "name": "One or two rain patches",
+      "symbolSize": 4.495239333333333,
+      "x": -225.73984,
+      "y": 82.41631,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "22",
+      "name": "One or two showers",
+      "symbolSize": 4.495239333333333,
+      "x": -385.6842,
+      "y": -20.206686,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "23",
+      "name": "One or two light rain patches",
+      "symbolSize": 4.495239333333333,
+      "x": -403.92447,
+      "y": -197.69823,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "24",
+      "name": "A few rain patches",
+      "symbolSize": 4.495239333333333,
+      "x": -281.4253,
+      "y": -158.45137,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "25",
+      "name": "A few light rain",
+      "symbolSize": 4.495239333333333,
+      "x": -122.41348,
+      "y": 210.37503,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "26",
+      "name": "A few showers",
+      "symbolSize": 4.495239333333333,
+      "x": -234.6001,
+      "y": -113.15067,
+      "value": 6.742859,
+      "category": 3
+    },
+    {
+      "id": "27",
+      "name": "Rain",
+      "symbolSize": 4.495239333333333,
+      "x": -387.84915,
+      "y": 58.7059,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "28",
+      "name": "Showers",
+      "symbolSize": 4.495239333333333,
+      "x": -338.2307,
+      "y": 87.48405,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "29",
+      "name": "Gale",
+      "symbolSize": 4.495239333333333,
+      "x": -453.26874,
+      "y": 58.94648,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "30",
+      "name": "Cloudy to overcast with rain",
+      "symbolSize": 4.495239333333333,
+      "x": -386.44904,
+      "y": 140.05937,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "31",
+      "name": "Showers will be heavy",
+      "symbolSize": 4.495239333333333,
+      "x": -446.7876,
+      "y": 123.38005,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "32",
+      "name": "One or two thunderstorms",
+      "symbolSize": 4.495239333333333,
+      "x": 336.49738,
+      "y": -269.55914,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "33",
+      "name": "One or two squally",
+      "symbolSize": 4.495239333333333,
+      "x": 29.187843,
+      "y": -460.13132,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "34",
+      "name": "Rain will be more frequent",
+      "symbolSize": 4.495239333333333,
+      "x": 238.36697,
+      "y": -210.00926,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "35",
+      "name": "Showers heavy at times",
+      "symbolSize": 4.495239333333333,
+      "x": 189.69513,
+      "y": -346.50662,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "36",
+      "name": "Showers heavier at times",
+      "symbolSize": 4.495239333333333,
+      "x": -187.00418,
+      "y": -145.02663,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "37",
+      "name": "Showers will be heavier",
+      "symbolSize": 4.495239333333333,
+      "x": -252.99521,
+      "y": 129.87549,
+      "value": 6.742859,
+      "category": 4
+    },
+    {
+      "id": "38",
+      "name": "Heavy rain",
+      "symbolSize": 4.495239333333333,
+      "x": -296.07935,
+      "y": 163.11964,
+      "value": 6.742859,
+      "category": 5
+    },
+    {
+      "id": "39",
+      "name": "Heavy showers",
+      "symbolSize": 4.495239333333333,
+      "x": 550.3201,
+      "y": 522.4031,
+      "value": 6.742859,
+      "category": 5
+    },
+    {
+      "id": "40",
+      "name": "Thunderstorms",
+      "symbolSize": 4.495239333333333,
+      "x": 488.13535,
+      "y": 356.8573,
+      "value": 6.742859,
+      "category": 5
+    },
+    {
+      "id": "41",
+      "name": "Squally",
+      "symbolSize": 4.495239333333333,
+      "x": 387.89572,
+      "y": 110.462326,
+      "value": 6.742859,
+      "category": 5
+    },
+    {
+      "id": "42",
+      "name": "Storm",
+      "symbolSize": 4.495239333333333,
+      "x": 126.4831,
+      "y": 68.10622,
+      "value": 6.742859,
+      "category": 5
+    },
+    {
+      "id": "43",
+      "name": "A few squally",
+      "symbolSize": 4.495239333333333,
+      "x": 127.07365,
+      "y": -113.05923,
+      "value": 6.742859,
+      "category": 5
+    },
+    {
+      "id": "44",
+      "name": "Showers will ease off gradually",
+      "symbolSize": 4.495239333333333,
+      "x": 162.63559,
+      "y": 117.6565,
+      "value": 6.742859,
+      "category": 5
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "0",
+      "target": "5"
+    },
+    {
+      "source": "0",
+      "target": "6"
+    },
+    {
+      "source": "0",
+      "target": "7"
+    },
+    {
+      "source": "0",
+      "target": "8"
+    },
+    {
+      "source": "1",
+      "target": "9"
+    },
+    {
+      "source": "1",
+      "target": "10"
+    },
+    {
+      "source": "1",
+      "target": "11"
+    },
+    {
+      "source": "1",
+      "target": "12"
+    },
+    {
+      "source": "1",
+      "target": "13"
+    },
+    {
+      "source": "1",
+      "target": "14"
+    },
+    {
+      "source": "1",
+      "target": "15"
+    },
+    {
+      "source": "1",
+      "target": "16"
+    },
+    {
+      "source": "2",
+      "target": "17"
+    },
+    {
+      "source": "2",
+      "target": "18"
+    },
+    {
+      "source": "2",
+      "target": "19"
+    },
+    {
+      "source": "2",
+      "target": "20"
+    },
+    {
+      "source": "2",
+      "target": "21"
+    },
+    {
+      "source": "2",
+      "target": "22"
+    },
+    {
+      "source": "2",
+      "target": "23"
+    },
+    {
+      "source": "2",
+      "target": "24"
+    },
+    {
+      "source": "2",
+      "target": "25"
+    },
+    {
+      "source": "2",
+      "target": "26"
+    },
+    {
+      "source": "3",
+      "target": "27"
+    },
+    {
+      "source": "3",
+      "target": "28"
+    },
+    {
+      "source": "3",
+      "target": "29"
+    },
+    {
+      "source": "3",
+      "target": "30"
+    },
+    {
+      "source": "3",
+      "target": "31"
+    },
+    {
+      "source": "3",
+      "target": "32"
+    },
+    {
+      "source": "3",
+      "target": "33"
+    },
+    {
+      "source": "3",
+      "target": "34"
+    },
+    {
+      "source": "3",
+      "target": "35"
+    },
+    {
+      "source": "3",
+      "target": "36"
+    },
+    {
+      "source": "3",
+      "target": "37"
+    },
+    {
+      "source": "4",
+      "target": "38"
+    },
+    {
+      "source": "4",
+      "target": "39"
+    },
+    {
+      "source": "4",
+      "target": "40"
+    },
+    {
+      "source": "4",
+      "target": "41"
+    },
+    {
+      "source": "4",
+      "target": "42"
+    },
+    {
+      "source": "4",
+      "target": "43"
+    },
+    {
+      "source": "4",
+      "target": "44"
+    }
+  ]
+}
